@@ -12,8 +12,8 @@ disqusShortname = ""
 
 [params]
 	name = "Stefan Hans"
-	description = "First steps towards an IT service company around Golang programming and ecosystem."
-	bio = "Blogger & Programmer"
+	description = "Currently about the very first steps towards an IT service company around Golang programming and ecosystem"
+	bio = "Experienced IT generalist, Golang native speaker wannabe, and blogger rookie"
 	# Enter optionally your twitter account
 	twitter = "stefanhans65"
 	enableRSS = true
@@ -35,7 +35,7 @@ disqusShortname = ""
 	readMore = ""
 	copyright = ""
 	# Sharing options and author information in posts
-	aboutAuthor = "I'm an blogger."
+	aboutAuthor = "Experienced IT generalist, Golang native speaker wannabe, and blogger rookie"
 	tweet = ""
 	share = ""
 	# 404 page
