@@ -12,7 +12,7 @@ disqusShortname = ""
 
 [params]
 	name = "Stefan Hans"
-	description = "Describe your website"
+	description = "First steps towards an IT service company around Golang programming and ecosystem."
 	bio = "Blogger & Programmer"
 	# Enter optionally your twitter account
 	twitter = "stefanhans65"
