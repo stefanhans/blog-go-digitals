@@ -2,6 +2,8 @@
 
 - develop under "go-digitals-hugo" (repo)
 
+
+    baseurl = "https://stefanhans.github.io/"
     hugo server -D
 
 - create static files for "stefanhans.github.io" (repo)
