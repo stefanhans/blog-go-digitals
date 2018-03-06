@@ -2,9 +2,9 @@
 
 - develop under "go-digitals-hugo" (repo)
 
-    baseurl = "https://stefanhans.github.io/"
+cmd:
 
-    publishDir = "../go-digitals-staging"
+    hugo server -D
 
 - create static files for "stefanhans.github.io" (repo)
 
