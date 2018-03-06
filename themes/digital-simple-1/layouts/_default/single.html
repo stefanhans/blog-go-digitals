@@ -1,0 +1,11 @@
+{{ define "main" }}
+    <h1 class="single-main">{{ .Title }}</h1>
+    <div class="single-main-content">
+        <image class="single-main" src="/img/{{ $.Param "image" }}" alt="{{ $.Param "imagetext" }}"></image>
+        {{ .Content }}
+    </div>
+    <div class="single-main-info">
+        <hr>
+    written at {{.Date.Format "2006-01-02"}} | from {{  $.Param "author" }} | {{ .WordCount }} words long
+    </div>
+{{ end }}

@@ -4,7 +4,7 @@ themesDir = "themes"
 publishDir = "../stefanhans.github.io"
 languageCode = "en-us"
 title = "go-digitals"
-theme = "hyde"
+theme = "digital-simple-1"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 # Disable comments by leaving disqusShortname empty

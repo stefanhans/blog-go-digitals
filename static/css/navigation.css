@@ -1,0 +1,21 @@
+div.navigation {
+    margin: auto;
+}
+
+ul.navigation {
+    list-style-type: none;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    overflow: hidden;
+    background-color: navajowhite;
+}
+
+li.navigation {
+    float: left;
+}
+
+a.navigation {
+    display: block;
+    padding: 8px;
+}

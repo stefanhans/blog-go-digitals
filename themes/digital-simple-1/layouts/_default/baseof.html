@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    {{ block "title" . }}
+    <title>
+    {{ .Title }} &ndash; {{ .Site.Title }}
+    </title>
+    {{ end }}
+
+    <link rel="stylesheet" type="text/css" href="/css/body.css">
+    <link rel="stylesheet" type="text/css" href="/css/navigation.css">
+    <link rel="stylesheet" type="text/css" href="/css/list.css">
+    <link rel="stylesheet" type="text/css" href="/css/single.css">
+    <link rel="stylesheet" type="text/css" href="/css/footer.css">
+</head>
+<body>
+
+{{ block "navigation" . }}
+<navigation>
+    <div class="navigation">
+        <ul class="navigation">
+        {{ range ( .Site.Sections ) }}
+            <li class="navigation">
+                <a class="navigation" href="/{{ lower .Name }}/">{{ .Name }}</a>
+            </li>
+        {{ end }}
+        </ul>
+    </div>
+</navigation>
+{{ end }}
+<hr>
+{{ block "main" . }}
+<!-- The part of the page that begins to differ between templates -->
+{{ end }}
+<hr>
+{{ block "footer" . }}
+        <footer>
+            <div class="footer">
+                <ul class="footer">
+                    <li class="footer">
+                        <a class="navigation" href="/{{ lower .Name }}/">Footer to be added!</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+{{ end }}
+
+</body>
+</html>

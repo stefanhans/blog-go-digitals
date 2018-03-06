@@ -1,0 +1,21 @@
+div.footer {
+    margin: auto;
+}
+
+ul.footer {
+    list-style-type: none;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    overflow: hidden;
+    background-color: navajowhite;
+}
+
+li.footer {
+    float: left;
+}
+
+a.footer {
+    display: block;
+    padding: 8px;
+}
