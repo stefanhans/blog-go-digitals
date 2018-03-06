@@ -18,3 +18,6 @@ cmd:
 
     hugo -D
 
+- push files to "stefanhans.github.io" (github) and view the new website
+
+[https://stefanhans.github.io](https://stefanhans.github.io)
