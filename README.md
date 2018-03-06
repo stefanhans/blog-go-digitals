@@ -12,6 +12,7 @@ config.toml:
 
     publishDir = "../go-digitals-staging"
 
+cmd:
 
     hugo -D
 
