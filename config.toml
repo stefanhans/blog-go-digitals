@@ -1,7 +1,8 @@
 # Site settings
-baseurl = "http://blog.go-digitals.com/"
+baseurl = "https://stefanhans.github.io/"
 themesDir = "themes"
 publishDir = "../stefanhans.github.io"
+#publishDir = "../go-digitals-staging"
 languageCode = "en-us"
 title = "go-digitals"
 theme = "digital-simple-1"
@@ -9,6 +10,7 @@ theme = "digital-simple-1"
 googleAnalytics = ""
 # Disable comments by leaving disqusShortname empty
 disqusShortname = ""
+canonifyurls = true
 
 [params]
 	name = "Stefan Hans"
