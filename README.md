@@ -1,21 +1,17 @@
 ### Hugo sources for website "go-digital"
 
-- develop under "go-digitals-hugo" (repo)
-
-cmd:
+Develop under "go-digitals-hugo" (repo)
 
     hugo server -D
 
-- create static files for "stefanhans.github.io" (repo)
-
-config.toml:
+Check "config.toml":
 
     baseurl = "https://stefanhans.github.io/"
 
     publishDir = "../go-digitals-staging"
 
-cmd:
+Create static files for "stefanhans.github.io" (repo)
 
     hugo -D
 
-- push files to "stefanhans.github.io" (github) and view [https://stefanhans.github.io](https://stefanhans.github.io)
+Push files to "stefanhans.github.io" (github) and view [https://stefanhans.github.io](https://stefanhans.github.io)
